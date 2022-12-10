@@ -1,4 +1,4 @@
-import { uuid } from 'uuidv4';
+import { v4 as uuidv4 } from 'uuid';
 
 interface Employee {
   id: string;
@@ -18,7 +18,7 @@ class Department {
   }
 
   addEmployee(employee: string) {
-    const employeeData = { id: uuid(), name: employee } as Employee
+    const employeeData = { id: uuidv4(), name: employee } as Employee
     this.employees.push(employeeData)
   }
 
