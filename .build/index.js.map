@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../index.ts"],
+  "sourcesContent": ["import { ThisKeyWordExample } from \"./this_keyword\";\nimport { AccessModifiersExample } from \"./access_modifiers\";\n\n// Execute this key word example\nThisKeyWordExample();\n\n// Execute acess modifiers example\nAccessModifiersExample();\n\n\n"],
+  "mappings": ";;;;;;;;;;;;;;;;;;AAAA,0BAAmC;AACnC,8BAAuC;AAGvC;AAGA;",
+  "names": []
+}

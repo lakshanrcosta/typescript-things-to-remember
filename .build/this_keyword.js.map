@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../this_keyword.ts"],
+  "sourcesContent": ["class Department {\n  name: string;\n\n  constructor(name: string) {\n    this.name = name;\n  }\n\n  describe(this: Department) {\n    console.log(\"Department: \" + this.name)\n  }\n}\n\nexport const ThisKeyWordExample = (): void => {\n  const accounting = new Department('Accountring');\n  accounting.describe()\n\n  const accountingCopy = { name: \"IT Department\", describe: accounting.describe }\n  accountingCopy.describe();\n}\n\n"],
+  "mappings": ";;;;;;;AAAA;AAAA;AAAA;AAAA,iBAAiB;AAAA,EACf;AAAA,EAEA,YAAY,MAAc;AACxB,SAAK,OAAO;AAAA;AAAA,EAGd,WAA2B;AACzB,YAAQ,IAAI,iBAAiB,KAAK;AAAA;AAAA;AAI/B,MAAM,qBAAqB,MAAY;AAC5C,QAAM,aAAa,IAAI,WAAW;AAClC,aAAW;AAEX,QAAM,iBAAiB,EAAE,MAAM,iBAAiB,UAAU,WAAW;AACrE,iBAAe;AAAA;",
+  "names": []
+}
