@@ -1,7 +1,7 @@
 import { ThisKeyWordExample } from "./this_keyword";
 import { AccessModifiersExample } from "./access_modifiers";
 import { ShortHandInitializationExample } from "./shorthand_initialization";
-import { InheritanceExample } from "./inheritance";
+import { InheritanceGetSetExample } from "./inheritance_get_set";
 
 // Uncomment the example that want to execute
 
@@ -14,5 +14,5 @@ import { InheritanceExample } from "./inheritance";
 // Execute shorthand initialization example
 //ShortHandInitializationExample();
 
-// Execute inheritance example
-InheritanceExample();
+// Execute inheritance, get and Set example
+InheritanceGetSetExample();
