@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["../access_modifiers.ts"],
-  "sourcesContent": ["class Department {\n  name: string;\n  employees: string[] = [];\n\n  constructor(name: string) {\n    this.name = name;\n  }\n\n  describe(this: Department) {\n    console.log(\"Department: \" + this.name)\n  }\n\n  addEmployee(employee: string) {\n    this.employees.push(employee)\n  }\n\n  printEmployeeInformation() {\n    console.log(`Total ${this.employees.length} employees are working in this ${this.name} department. And they are ${this.employees}`)\n  }\n}\n\nexport const AccessModifiersExample = (): void => {\n  const department = new Department('Internal R&D');\n  department.addEmployee('Lakshan');\n  department.addEmployee('Kimmo');\n  department.addEmployee('Tuomo');\n  department.printEmployeeInformation();\n}\n\n"],
-  "mappings": ";;;;;;;AAAA;AAAA;AAAA;AAAA,iBAAiB;AAAA,EACf;AAAA,EACA,YAAsB;AAAA,EAEtB,YAAY,MAAc;AACxB,SAAK,OAAO;AAAA;AAAA,EAGd,WAA2B;AACzB,YAAQ,IAAI,iBAAiB,KAAK;AAAA;AAAA,EAGpC,YAAY,UAAkB;AAC5B,SAAK,UAAU,KAAK;AAAA;AAAA,EAGtB,2BAA2B;AACzB,YAAQ,IAAI,SAAS,KAAK,UAAU,wCAAwC,KAAK,iCAAiC,KAAK;AAAA;AAAA;AAIpH,MAAM,yBAAyB,MAAY;AAChD,QAAM,aAAa,IAAI,WAAW;AAClC,aAAW,YAAY;AACvB,aAAW,YAAY;AACvB,aAAW,YAAY;AACvB,aAAW;AAAA;",
-  "names": []
-}
